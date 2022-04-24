@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.menubar {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c235f;
+  position: sticky;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+#menu ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+  padding: 10px;
+}
+#menu ul li:hover {
+  background-color: #191436;
+  border: #251e52 2px solid;
+}
+
+/* */
+
+.home {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(#524794, #2c235f);
+  padding-top: 120px;
+  padding-bottom: 170px;
+}
+.leftHome {
+  max-width: 440px;
+}
+
+.leftHome h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+}
+.leftHome p {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.btn {
+  background: transparent;
+  border: #70e000 2px solid;
+  padding: 10px 16px;
+  margin-right: 10px;
+  color: white;
+  font-size: 15px;
+}
+.btn:hover {
+  background: linear-gradient(to right, #70e000, #9ef01a);
+  color: #fdf8e1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.searchBox {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #f3e5ab;
+  transform: translateY(-40px);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 180, 0.6);
+  /* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
+  padding: 25px;
+}
+.searchBar {
+  /* background-color: #EDEAE0; */
+  display: block;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.searchBar input {
+  background-color: #edeae0;
+  width: 90%;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+}
+#searchbtn {
+  color: #0c0a1b;
+  font-weight: bold;
+  position: absolute;
+  margin-right: 10px;
+  top: 26px;
+  bottom: 0;
+  right: 65px;
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+  background-color: #9ef01a;
+}
+#searchbtn:hover {
+  
+}
+.priceList {
+  display: block;
+  width: 80%;
+  padding-left: 90px;
+  align-content: center;
+  text-align: center;
+  column-count: 6;
+  column-rule: 2px solid black;
+}
+.domain {
+  color: #2100f2;
+}
+.cardConainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+ 
+}
+.card {
+  text-align: center;
+  background-color: #edeae0;
+  max-width: 28%;
+  padding: 30px;
+}
+.card:hover{
+    background-color: #524794;
+}
+.card span{
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.card h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 15px;
+}
