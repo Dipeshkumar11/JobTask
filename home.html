@@ -25,27 +25,50 @@
     <!-- Menu Bar Started -->
 
     <section class="menubar">
-      <span id="logo"><i class="fa-solid fa-ban-bug"></i>HOTSTAR</i></span>
-      <span id="menu">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Hosting</li>
-          <li>Pages</li>
-          <li>Shop</li>
-          <li>Blog</li>
-          <li>Contact</li>
+      <span id="logo" >HOTSTAR</span>
+      <span id="menu" class="display" >
+        <ul class="visible">
+          <li > <a href="#">Home</a></li>
+          <li  ><a href="#">About</a></li>
+          <li  ><a href="#">Hosting</a></li>
+          <li  ><a href="#">Pages</a></li>
+          <li  ><a href="#">Shop</a></li>
+          <li  ><a href="#">Blog</a></li>
+          <li  ><a href="#">Contact</a></li>
         </ul>
       </span>
       <span id="icons">
         <i class="fa-solid fa-magnifying-glass"></i> </span>
+        <span class="menuIcon"><i class="fa-solid fa-bars"></i>
+        </span>
+        
+        <!-- <div class="bars">
+          <span class="line"></span><span class="line"></span><span class="line"></span>
+        </div> -->
+        <!-- <button onclick="toggleBars()"><span id="bars"><i class="fa-solid fa-bars"></i></span></button> -->
+        
     </section>
+
+   
+<!-- 
+    <section class="crossMenu">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Hosting</li>
+        <li>Pages</li>
+        <li>Shop</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+    </section> -->
 
     <!-- Menu Bar Ended -->
 
     <!-- Home Area Started -->
 
     <div class="home">
+   
       <div class="leftHome">
         <h2>Fast & Secure best <br>
         web hosting
@@ -55,15 +78,17 @@
           We offer Web Hosting & Domain.
         </p>
         <div class="butns">
-          <button class="btn">Get Started</button>
-          <button class="btn">Login</button>
+          <button id="butn" class="btn">Get Started</button>
+          <button class="btn"> <a href="login.html">Login </a></button>
         </div>
       </div>
+
       <div class="rightHome">
-        <img src="images/computer.png" alt="" />
+        <img src="images/computer.png" alt="Computer Image" />
       </div>
     </div>
     <!-- Home Area Ended -->
+
     <!-- SearchBar Started -->
     <div class="searchBox">
       <span class="searchBar">
@@ -73,18 +98,22 @@
         
       
       </span>
+
       <span class="priceList">
-        <p><span class="domain">.com</span> $11.25</p>
-      <p><span class="domain">.com</span> $11.25</p>
-      <p><span class="domain">.com</span>$11.25</p>
       <p><span class="domain">.com</span> $11.25</p>
       <p><span class="domain">.com</span> $11.25</p>
-      <p><span class="domain">.com</span>$11.25</p></span>
+      <p><span class="domain">.com</span> $11.25</p>
+      <p><span class="domain">.com</span> $11.25</p>
+      <p><span class="domain">.com</span> $11.25</p>
+      <p><span class="domain">.com</span> $11.25</p>
+    </span>
+
     </div>
     <!-- SearchBar Ended -->
 
     <!-- Cards Section Started -->
     <div class="cardConainer">
+
       <div class="card">
          <span><i class="fa-solid fa-feather-pointed"></i>
           
@@ -92,21 +121,25 @@
          <h3>Faster loading Speed</h3>
          <p>Getting your website is as simple as a click of a button. Everything you need- provided in a clear way.</p>
       </div>
+
       <div class="card">
         <span><i class="fa-solid fa-feather-pointed"></i>
          
        </span>
-        <h3>Faster loading Speed</h3>
+        <h3>99% Uptime Guarantee</h3>
         <p>Getting your website is as simple as a click of a button. Everything you need- provided in a clear way.</p>
      </div>
+
      <div class="card">
       <span><i class="fa-solid fa-user-ninja"></i>
        
      </span>
-      <h3>Faster loading Speed</h3>
+      <h3>24/7 Customer Support</h3>
       <p>Getting your website is as simple as a click of a button. Everything you need- provided in a clear way.</p>
    </div>
     </div>
     <!-- Cards Section Ended -->
+
+    <script src="action.js"></script>
   </body>
 </html>
